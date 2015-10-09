@@ -16,4 +16,36 @@ class DefaultController extends Controller
 		$this->show('default/home');
 	}
 
+	/**
+	 * Page d'événements
+	 */
+	public function activites()
+	{
+		$this->show('default/activites');
+	}
+
+	/**
+	 * Page sur l'histoire
+	 */
+	public function history()
+	{
+		$this->show('default/history');
+	}
+
+	/**
+	 * Page sur l'équipe
+	 */
+	public function team()
+	{
+		$this->show('default/team');
+	}
+
+	/**
+	 * Page de contact
+	 */
+	public function contact()
+	{
+		$this->show('default/contact');
+	}
+
 }
