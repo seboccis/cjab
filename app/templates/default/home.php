@@ -1,5 +1,6 @@
 <?php $this->layout('front_layout', [
-										'title' 		=> 'Accueil',
+										'title' => 'Accueil',
+										'page'	=> 'accueil',
 									])				?>
 
 

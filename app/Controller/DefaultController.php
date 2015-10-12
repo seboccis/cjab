@@ -25,6 +25,14 @@ class DefaultController extends Controller
 	}
 
 	/**
+	 * Page de plan
+	 */
+	public function map()
+	{
+		$this->show('default/map');
+	}
+
+	/**
 	 * Page sur l'histoire
 	 */
 	public function history()
